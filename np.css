@@ -1,0 +1,147 @@
+#background{
+    background-color: #B1D5EF;
+}
+html{
+    width: 100%;
+    scroll-behavior: smooth;
+}
+#header{
+    background-color: green;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 320px;
+    width: 100%;
+    height: 830px;
+    background: url(https://images.unsplash.com/photo-1520013573795-38516d2661e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2007&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10px -60px;
+}
+
+#content{
+    padding-bottom: 100px;
+}
+
+#nombre{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#bio, img{
+    float: left;
+}
+
+#hab{
+    display: inline-block;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    font-size: 6em;
+}
+
+#texto{
+    text-align: center;
+}
+
+#bio{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    padding-top: 10px;
+}
+
+
+#info{
+    padding-top: 15%;
+    text-align: center;
+}
+
+#info h1{
+    font-size: 6em;
+}
+
+#conjunto{
+    padding-bottom: 5%;
+    display: block;
+    width: 100%;
+}
+
+#contacto{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 100px;
+}
+
+#contacto h1{
+    text-align: center;
+    font-size: 6em;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+#center{
+    text-align: justify;
+}
+
+
+.example_e {
+    margin-top: 10px;
+    border: none;
+    background: #1eb457;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 2px 30px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.icono{
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 60px;
+}
+
+.fab,.far{
+    font-size: 2em;
+}
+
+#t{
+    font-size: 2em;
+}
+
+#w:hover{
+    color: #1eb457;
+}
+
+#t:hover{
+    color: blue;
+}
+
+#e:hover{
+    color: rebeccapurple;
+}
+
+#con{
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    font-size: 6em;
+}
+
+#logowa{
+    font-size: 1.2em;
+}
+
+.example_e:hover {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
